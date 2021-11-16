@@ -1,0 +1,27 @@
+
+.wrapper {overflow: auto;}
+#SMIT {margin-left: 4px;}
+#leftsidebar {
+  float: none;
+  width: auto;
+}
+#menulist {
+  margin: 0;
+  padding: 0;
+}
+.menuitem {
+  background: rosybrown;
+  border: 10px solid blue;
+  border-radius: 34px;
+  list-style-type: none;
+  margin: 4px;
+  padding: 2px;
+}
+
+@media screen and (min-width: 480px) {
+  #leftsidebar {width: 150px; float: left;}
+  #main {margin-right: 216px;}
+  #rightsidebar {width: 150px; float: right;}
+  #main {margin-left: 216px;}
+}
+
